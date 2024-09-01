@@ -34,4 +34,4 @@ class Patient(self,dni,first_name, last_name, date_of_birth, address, phone_numb
         return self.medical_history
 
     def add_patient_medical_record(self, new_record):
-        self.medical_history.append(new_record
+        self.medical_history.append(new_record)
