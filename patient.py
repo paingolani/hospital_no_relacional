@@ -1,6 +1,6 @@
-from uuid import uuid4
+import uuid
 
-class Patient(self,dni,first_name, last_name, date_of_birth, address, phone_number, email):
+class Patient:
     def __init__(self, dni, first_name, last_name, date_of_birth, sex, address, phone_number, email):
             self.dni = dni
             self.id_number = uuid.uuid4()
@@ -12,7 +12,6 @@ class Patient(self,dni,first_name, last_name, date_of_birth, address, phone_numb
             self.phone_number = phone_number
             self.email = email
             self.medical_history = []
-            
     def get_patient_details(self):
         return {
             'dni' : self.dni,
