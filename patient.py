@@ -1,4 +1,4 @@
-import uuid
+from uuid import uuid4
 
 class Patient(self,dni,first_name, last_name, date_of_birth, address, phone_number, email):
     def __init__(self, dni, first_name, last_name, date_of_birth, sex, address, phone_number, email):
