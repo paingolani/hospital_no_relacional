@@ -19,4 +19,3 @@ class Doctor:
     
     def __str__(self):
         return f"Dr. {self.first_name}{self.last_name} - {self.specialty}"
-    
